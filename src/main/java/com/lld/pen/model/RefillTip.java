@@ -4,7 +4,8 @@ import lombok.Data;
 
 @Data
 public class RefillTip {
-	private int tipLength;
-	private int tipDiameter;
-	private String tipMetal;
+	private int length;
+	private int diameter;
+	private String material;
+	private TipShape shape;
 }

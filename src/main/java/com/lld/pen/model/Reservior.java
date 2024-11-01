@@ -6,4 +6,5 @@ import lombok.Data;
 public class Reservior {
 	private int lenght;
 	private int diameter;
+	private ReserviorType type;
 }
